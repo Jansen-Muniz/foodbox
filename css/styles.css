@@ -14,7 +14,6 @@
 }
 
 #container-foodbox{
-  background-color: #222;
   border-radius: 10px;
   margin: 4px 0 4px 0;
 }
@@ -44,6 +43,10 @@ img{
   margin: 10px;
 }
 
+.container-produto h2{
+  color: #222;
+}
+
 .container-produto h2,h3, p{
   margin-bottom: 8px;
 }
@@ -66,9 +69,15 @@ img{
 #botao a{
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #botao:hover{
   background-color: #ff466b;
   cursor: pointer;
+}
+
+.borda-vermelha{
+  border: 3px solid #dc143c;
 }
